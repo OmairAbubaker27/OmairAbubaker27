@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>واصل لوجستيك - قطر</title>
+  <!-- استدعاء خطوط جوجل -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet" />
+  <!-- استدعاء تايلويند من CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      font-family: 'Cairo', sans-serif;
+      background: #f8fafc;
+      color: #1e293b;
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      direction: rtl;
+    }
+    .main-title {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: #2563eb;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .section {
+      background: #fff;
+      border-radius: 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+      padding: 2rem;
+      margin: 2rem auto;
+      max-width: 600px;
+    }
+    .btn-main {
+      background: #2563eb;
+      color: #fff;
+      padding: 0.75rem 2rem;
+      border-radius: 0.5rem;
+      font-size: 1.2rem;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-block;
+      transition: background 0.2s;
+      margin-top: 1rem;
+    }
+    .btn-main:hover {
+      background: #1d4ed8;
+    }
+    @media (max-width: 600px) {
+      .section {
+        padding: 1rem;
+        margin: 1rem;
+      }
+      .main-title {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="section">
+    <h1 class="main-title">واصل لوجستيك - قطر</h1>
+    <p style="text-align:center; font-size:1.1rem;">
+      أسرع خدمة توصيل داخل الدوحة وخارجها، مع تتبع مباشر ودعم على مدار الساعة.<br>
+      جرب خدماتنا الآن!
+    </p>
+    <div style="text-align:center;">
+      <a href="https://wa.me/974XXXXXXXX" target="_blank" class="btn-main">تواصل معنا عبر واتساب</a>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2 style="color:#2563eb; font-size:1.3rem; margin-bottom:0.5rem;">خدماتنا:</h2>
+    <ul style="font-size:1.05rem; line-height:2;">
+      <li>توصيل سريع في نفس اليوم</li>
+      <li>توصيل بين المدن في قطر</li>
+      <li>خدمة تتبع مباشر للشحنات</li>
+      <li>توصيل للمحلات والمتاجر الإلكترونية</li>
+      <li>دعم عملاء 24/7</li>
+    </ul>
+  </div>
+
+  <div class="section" style="text-align:center;">
+    <h2 style="color:#2563eb; font-size:1.3rem;">تابعنا على مواقع التواصل</h2>
+    <a href="https://instagram.com/yourcompany" target="_blank" style="margin:0 10px;">
+      <img src="https://cdn-icons-png.flaticon.com/24/2111/2111463.png" alt="Instagram" style="vertical-align:middle;">
+    </a>
+    <a href="https://twitter.com/yourcompany" target="_blank" style="margin:0 10px;">
+      <img src="https://cdn-icons-png.flaticon.com/24/733/733579.png" alt="Twitter" style="vertical-align:middle;">
+    </a>
+    <a href="https://facebook.com/yourcompany" target="_blank" style="margin:0 10px;">
+      <img src="https://cdn-icons-png.flaticon.com/24/733/733547.png" alt="Facebook" style="vertical-align:middle;">
+    </a>
+  </div>
+</body>
+</html>
